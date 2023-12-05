@@ -2,8 +2,7 @@ import { createGlobalStyle, styled } from 'styled-components';
 import data from './data';
 import { useState } from 'react';
 import Questions from './Questions';
-// import desktopSVG from "/src/assets/background-pattern-desktop.svg";
-// import mobileSVG from "/src/assets/background-pattern-mobile.svg";
+
 function App() {
   const [questions, setQuestions] = useState(data);
 

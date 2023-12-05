@@ -52,6 +52,12 @@ const Info = styled.p`
 const Title = styled.h2`
     font-size: 1rem;
     font-weight: 600;
+
+    @media (min-width: 37.5rem) {
+        &:hover{
+            color: #AD28EB;
+        }
+    }    
 `;
 
 const Img = styled.img`
