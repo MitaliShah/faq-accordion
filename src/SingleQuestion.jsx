@@ -56,6 +56,7 @@ const Title = styled.h2`
         &:hover{
             color: #AD28EB;            
         }
+        max-width: 80%;
     }    
 `;
 
