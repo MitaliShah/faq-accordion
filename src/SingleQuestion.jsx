@@ -29,8 +29,6 @@ const Wrapper = styled.div`
 const Summary = styled.summary`
     list-style-type: none;
     color: #301534;
-    /* font-size: 1rem; */
-    /* font-weight: 600; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,10 +50,11 @@ const Info = styled.p`
 const Title = styled.h2`
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
 
     @media (min-width: 37.5rem) {
         &:hover{
-            color: #AD28EB;
+            color: #AD28EB;            
         }
     }    
 `;
