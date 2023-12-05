@@ -61,5 +61,6 @@ const Title = styled.h2`
 
 const Img = styled.img`
     width: 1.5rem;
-    height: 1.5rem;
+    height: 1.5rem; 
+    margin-left: 1.5rem;
 `
