@@ -20,12 +20,14 @@ const Wrapper = styled.main`
     max-width: 23.438rem;    
     margin: auto;
     border-radius: 0.5rem;  
-    background: var(--White, #FFF);
     box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10);
     padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: #FFF;
 
     @media (min-width: 37.5rem) {
       max-width: 37.5rem;
+      border-radius: 1rem;
     }
 `;
 
