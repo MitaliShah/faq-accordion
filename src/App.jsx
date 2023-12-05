@@ -28,6 +28,7 @@ const Wrapper = styled.main`
     @media (min-width: 37.5rem) {
       max-width: 37.5rem;
       border-radius: 1rem;
+      padding: 2.5rem;
     }
 `;
 
